@@ -3,7 +3,19 @@ It is an example app and a basic template for devise auth in rails 6.
 
 ## Screenshots
 
-<img src="image.png">
+### Log In Page
+<img src="screenshots/image.png">
+
+### Sign Up Page
+<img src="screenshots/image2.png">
+
+### Forgot password Page
+<img src="screenshots/image4.png">
+
+### Home Page
+<img src="screenshots/image3.png">
+
+
 
 ## Useful links
 - [How to Redirect to a specific page on successful sign in](https://github.com/plataformatec/devise/wiki/How-To:-redirect-to-a-specific-page-on-successful-sign-in)
