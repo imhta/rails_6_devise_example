@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   devise_scope :user do
     get 'sign_in', to: 'users/sessions#new'
     get 'sign_up', to: 'users/registrations#new'
+    get 'forgot_password', to: 'users/passwords#new'
   end
 
   root to: 'application#home'
