@@ -1,7 +1,6 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-
-
-
   devise_for :users, controllers: {
     sessions: 'users/sessions',
     registrations: 'users/registrations'
@@ -14,5 +13,4 @@ Rails.application.routes.draw do
   end
 
   root to: 'application#home'
-
 end
