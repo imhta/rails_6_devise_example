@@ -1,6 +1,10 @@
 # Rails 6 devise example
 It is an example app and a basic template for devise auth in rails 6.
 
+## Screenshots
+
+<img src="image.png">
+
 ## Useful links
 - [How to Redirect to a specific page on successful sign in](https://github.com/plataformatec/devise/wiki/How-To:-redirect-to-a-specific-page-on-successful-sign-in)
 - [How to use custom mailer](https://github.com/plataformatec/devise/wiki/How-To:-Use-custom-mailer)
