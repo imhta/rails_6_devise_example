@@ -1,9 +1,54 @@
 # Rails 6 devise example
 It is an example app and a basic template for devise auth in rails 6.
 
+## Build with
+- Rails on rails
+- Bootstrap with webpack
+
+## Get Started
+### Requirement
+- Ruby 2.6
+- Rails 6
+- Foreman gem
+
+### Clone
+```bash
+git clone https://github.com/imhta/rails_6_devise_example.git
+cd rails_6_devise_example
+```
+### Install and migrate db
+
+```bash
+bundle install 
+rails db:migrate
+```
+### Start Server
+To start rails server
+```bash
+rails serve
+
+```
+To start webpack server because rails 6 in default use webpack
+```bash
+foreman start -f Procfile.dev
+```
+
+
 ## Screenshots
 
-<img src="image.png">
+### Log In Page
+<img src="screenshots/image.png">
+
+### Sign Up Page
+<img src="screenshots/image2.png">
+
+### Forgot password Page
+<img src="screenshots/image4.png">
+
+### Home Page
+<img src="screenshots/image3.png">
+
+
 
 ## Useful links
 - [How to Redirect to a specific page on successful sign in](https://github.com/plataformatec/devise/wiki/How-To:-redirect-to-a-specific-page-on-successful-sign-in)
