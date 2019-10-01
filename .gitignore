@@ -17,6 +17,8 @@
 !/log/.keep
 !/tmp/.keep
 
+# Ignore secrets.yml
+secrets.yml
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
