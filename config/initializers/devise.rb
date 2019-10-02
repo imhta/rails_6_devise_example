@@ -261,7 +261,7 @@ Devise.setup do |config|
   # up on your models and hooks.
   GITHUB_APP_ID = Rails.application.credentials.dig(:github_app_id)
   GITHUB_SECRET_ID = Rails.application.credentials.dig(:github_secret_id)
-  
+
   config.omniauth :github, GITHUB_APP_ID, GITHUB_SECRET_ID, scope: 'user'
 
   # ==> Warden configuration
