@@ -26,7 +26,7 @@ rails db:migrate
 ### Start Server
 To start rails server
 ```bash
-rails serve
+rails server
 
 ```
 To start webpack server because rails 6 in default use webpack
