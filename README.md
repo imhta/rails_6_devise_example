@@ -30,8 +30,9 @@ To start rails server
 rails server
 
 ```
-To start webpack server because rails 6 in default uses webpack
+To start webpack server (rails 6 default is to use webpack)
 ```bash
+gem install foreman
 foreman start -f Procfile.dev
 ```
 
